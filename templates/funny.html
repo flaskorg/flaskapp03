@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Laugh Time!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/funny.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>😄 Welcome to Nice View!</h1>
+        <p>Refresh to see another view!</p>
+        <img src="{{ url_for('static', filename='images/' + image) }}" alt="Funny" class="funny-img">
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,21 @@
+body {
+    background-color: #fff6f0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    color: #ff5e57;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.funny-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
